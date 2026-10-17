@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "id": "item-1",
+      "title": "Example item",
+      "extra": true
+    }
+  ],
+  "extra": "ignored"
+}

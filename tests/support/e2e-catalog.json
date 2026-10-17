@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "field-notes",
+      "title": "Field notes"
+    },
+    {
+      "id": "arc-lamp",
+      "title": "Arc lamp"
+    },
+    {
+      "id": "ceramic-cup",
+      "title": "Ceramic cup"
+    }
+  ]
+}

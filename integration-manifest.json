@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "starterVersion": "0.1.0",
+  "apiContractVersion": "1.0.0",
+  "tokensVersion": "0.1.0",
+  "ui": { "ownership": "local", "path": "src/core/designsystem" }
+}

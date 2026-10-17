@@ -1,0 +1,46 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.button:hover:not(:disabled) {
+  background: var(--muted-surface);
+}
+.button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.feedback {
+  padding: 5rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+  background: var(--surface);
+}
+.feedback h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.feedback p {
+  color: var(--muted);
+  max-width: 38rem;
+  margin-inline: auto;
+  line-height: 1.65;
+}
+.feedbackMark {
+  display: block;
+  font-size: 2.5rem;
+  color: var(--accent);
+}
